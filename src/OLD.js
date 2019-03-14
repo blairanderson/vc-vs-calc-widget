@@ -30,7 +30,7 @@ function OLD() {
             </dd>
             <dd>
               <span className="a-declarative" data-action="a-popover" data-a-popover="{&quot;name&quot;:&quot;preloadContentShipping&quot;,&quot;position&quot;:&quot;triggerRight&quot;}">
-                <a href="javascript:void(0)" className="a-popover-trigger a-declarative">
+                <a href="" className="a-popover-trigger a-declarative">
                   <span className="black tooltip revenue">
                     Shipping
                     </span>
