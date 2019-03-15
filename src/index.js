@@ -10,7 +10,6 @@ function App() {
     <div>
       <Profitability />
       <hr />
-      <OLD />
     </div>
   );
 }

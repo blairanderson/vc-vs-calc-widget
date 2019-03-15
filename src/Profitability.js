@@ -9,22 +9,28 @@ function Profitability() {
     <div>
       <FBAFBM {...{ selectedOption, updateSelected }} />
       <div className="cf w-100">
-        <div className="fl w-third">
+        <div className="fl w-25">
           <p className="f3">Revenue</p>
           <p>Item Price</p>
           <p>Shipping</p>
           <p>Total Revenue</p>
           <p>Selling on Amazon Fees</p>
         </div>
-        <div className="fl w-third">
+        <div className="fl w-25">
           <p className="f3">Vendor</p>
+          <p>
+            <input type="number" min={0} step={0.01} max={1000} />
+          </p>
         </div>
-
         {selectedOption == "FBM" && (
-          <div className="fl w-third">Seller w/ Your Fulfillment</div>
+          <div className="fl w-50">
+            <FBA />
+          </div>
         )}
         {selectedOption == "FBA" && (
-          <div className="fl w-third">Seller w/ Amazon Fulfillment</div>
+          <div className="fl w-50">
+            <FBM />
+          </div>
         )}
       </div>
     </div>
