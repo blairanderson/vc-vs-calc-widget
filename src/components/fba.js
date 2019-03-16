@@ -30,7 +30,7 @@ function FBA(props) {
 
   return (
     <div>
-      <p className="f3">Seller w/ Your Fulfillment</p>
+      <p className="f3">Seller w/ Amazon Fulfillment</p>
       <div className="cf">
         <input
           type="number"
